@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HighestCardLab.iml" filepath="$PROJECT_DIR$/.idea/modules/HighestCardLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HighestCardLab_main.iml" filepath="$PROJECT_DIR$/.idea/modules/HighestCardLab_main.iml" group="HighestCardLab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HighestCardLab_test.iml" filepath="$PROJECT_DIR$/.idea/modules/HighestCardLab_test.iml" group="HighestCardLab" />
     </modules>
   </component>
 </project>
