@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.*;
+
 
 public class Game {
 
@@ -18,4 +20,20 @@ public class Game {
     public Deck getDeck() {
         return this.deck;
     }
+
+    public void addPlayer(Player player) {
+        players.add(player);
+    }
+
+    public void shuffleDeck(ArrayList<Deck> deck){
+        Collections.shuffle(deck);
+    }
+
+    public Card dealCard(int firstCard){
+        Card cardToDeal = this.getDeck().getCardDeck().get(firstCard);
+        this.getDeck().getCardDeck().remove(cardToDeal);
+        return cardToDeal;
+    }
+
+
 }

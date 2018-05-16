@@ -7,12 +7,15 @@ public class GameTest {
 
     Game game;
     Deck deck;
+    Player player;
+    Card card;
 
     @Before
     public void before(){
         deck = new Deck();
         deck.addAllCardsToCardDeck();
         game = new Game(deck);
+        player = new Player("Hannah");
     }
 
     @Test
@@ -26,6 +29,16 @@ public class GameTest {
         assertEquals(52, gamesDeck.getCardDeckSize());
     }
 
+    @Test
+    public void canAddPlayer(){
+        game.addPlayer(player);
+        assertEquals(1, game.getPlayersCount());
+    }
 
-
+//    @Test
+//    public void canShuffleDeck(){
+//       Deck deck = game.getDeck();
+//       Card cardToCheck = deck.get(0);
+//
+//    }
 }

@@ -10,6 +10,10 @@ public class Deck {
     }
 
 
+    public ArrayList<Card> getCardDeck() {
+        return this.cardDeck;
+    }
+
     public int getCardDeckSize() {
         return this.cardDeck.size();
     }
@@ -25,8 +29,5 @@ public class Deck {
             }
         }
     }
-
-
-
 
 }

@@ -31,12 +31,11 @@ public class DeckTest {
         assertEquals(52, deck.getCardDeckSize());
     }
 
-//    @Test
-//    public void allSuitsPresent(){
-//        deck.addAllCardsToCardDeck();
-//        Card cardToCheck = deck
-//        assertEquals(SuitType.HEARTS,);
-//    }
+    @Test
+    public void canGetCardDeck(){
+        deck.addAllCardsToCardDeck();
+        assertEquals(52, deck.getCardDeck().size() );
+    }
 
 
 }
