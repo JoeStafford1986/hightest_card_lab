@@ -35,5 +35,17 @@ public class Game {
         return cardToDeal;
     }
 
+    public Player getWinner(){
+        Player winningPlayer = players.get(0);
+        for (Player player: players){
+            if (player.getCard().getRank().getValue() > winningPlayer.getCard().getRank().getValue()){
+                winningPlayer = player;
+            } else if (player.getCard().getRank().getValue() == winningPlayer.getCard().getRank().getValue() ){
+                player.
+            }
+        }
+        
+        return winningPlayer;
+    }
 
 }

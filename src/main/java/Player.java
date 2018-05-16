@@ -21,4 +21,8 @@ public class Player {
     public int getHandOfCardsSize() {
         return this.handOfCards.size();
     }
+
+    public Card getCard() {
+        return this.handOfCards.get(0);
+    }
 }
