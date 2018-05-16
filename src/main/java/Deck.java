@@ -24,10 +24,9 @@ public class Deck {
                 cardDeck.add(new Card(suit, rank));
             }
         }
-//        for (int i = 0; i < 5; i++){
-//            for (int j = 0; j < 53; j++){
-//
-//            }
-//        }
     }
+
+
+
+
 }
